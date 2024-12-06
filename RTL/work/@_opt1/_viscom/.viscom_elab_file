@@ -1,0 +1,1 @@
+C:/questasim64_2024.2/win64/VisualizerRls/bin/viscom.exe -nolock -quiet -jmem_size 393216 work.tb_mul_slave -quiet -auto_acc_if_foreign -work work -allow_unnamed -o _opt1 -id 1-00be439293f0-6752841f-106-1224 {+__design_bin_path+//thoth.cecs.pdx.edu/Home01/bhargavc/My Documents/final_fall}

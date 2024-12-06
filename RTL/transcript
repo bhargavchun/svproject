@@ -1,0 +1,109 @@
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:04:01 on Dec 05,2024
+# vlog -reportprogress 300 -lint APB_RAM_DESIGN.sv "+acc" 
+# -- Compiling module apb_m_top
+# -- Importing package apb_pkg
+# 
+# Top level modules:
+# 	apb_m_top
+# End time: 21:04:01 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:04:01 on Dec 05,2024
+# vlog -reportprogress 300 -lint APB_RAM_MUL_SLAVE.sv "+acc" 
+# -- Compiling module mul_slave
+# -- Importing package apb_pkg
+# 
+# Top level modules:
+# 	mul_slave
+# End time: 21:04:01 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:04:02 on Dec 05,2024
+# vlog -reportprogress 300 -lint APB_RAM_MUL_SLAVE_TB.sv "+acc" 
+# -- Compiling module tb_mul_slave
+# 
+# Top level modules:
+# 	tb_mul_slave
+# End time: 21:04:02 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:04:02 on Dec 05,2024
+# vlog -reportprogress 300 -lint APB_RAM_SLAVE.sv "+acc" 
+# -- Compiling module apb_s_top
+# -- Importing package apb_pkg
+# 
+# Top level modules:
+# 	apb_s_top
+# End time: 21:04:02 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:04:02 on Dec 05,2024
+# vlog -reportprogress 300 -lint proj_package.sv "+acc" 
+# -- Compiling package apb_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:04:03 on Dec 05,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:04:03 on Dec 05,2024
+# vlog -reportprogress 300 -lint self_check.sv "+acc" 
+# -- Compiling module tb_apb
+# 
+# Top level modules:
+# 	tb_apb
+# End time: 21:04:03 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:04:03 on Dec 05,2024
+# vlog -reportprogress 300 -lint sv_inter.sv "+acc" 
+# -- Compiling package sv_inter_sv_unit
+# -- Importing package apb_pkg
+# -- Compiling interface apb_if
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:04:04 on Dec 05,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.tb_mul_slave 
+# Start time: 21:04:04 on Dec 05,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.tb_mul_slave(fast)
+# Loading work.apb_pkg(fast)
+# Loading work.mul_slave(fast)
+# Loading work.apb_m_top(fast)
+# Loading work.apb_s_top(fast)
+# ** Note: $stop    : APB_RAM_MUL_SLAVE_TB.sv(103)
+#    Time: 1690 ns  Iteration: 1  Instance: /tb_mul_slave
+# Break in Module tb_mul_slave at APB_RAM_MUL_SLAVE_TB.sv line 103
+# Causality operation skipped due to absence of debug database file
+# image file format "bmp" is unknown
+# image file format "bmp" is unknown
+# image file format "bmp" is unknown
+# Project file //thoth.cecs.pdx.edu/Home01/bhargavc/My Documents/final_fall/final_fall.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file //thoth.cecs.pdx.edu/Home01/bhargavc/My Documents/final_fall/final_fall.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file //thoth.cecs.pdx.edu/Home01/bhargavc/My Documents/final_fall/final_fall.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file //thoth.cecs.pdx.edu/Home01/bhargavc/My Documents/final_fall/final_fall.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file //thoth.cecs.pdx.edu/Home01/bhargavc/My Documents/final_fall/final_fall.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file //thoth.cecs.pdx.edu/Home01/bhargavc/My Documents/final_fall/final_fall.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file //thoth.cecs.pdx.edu/Home01/bhargavc/My Documents/final_fall/final_fall.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file //thoth.cecs.pdx.edu/Home01/bhargavc/My Documents/final_fall/final_fall.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file //thoth.cecs.pdx.edu/Home01/bhargavc/My Documents/final_fall/final_fall.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file //thoth.cecs.pdx.edu/Home01/bhargavc/My Documents/final_fall/final_fall.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 23:53:08 on Dec 05,2024, Elapsed time: 2:49:04
+# Errors: 0, Warnings: 0
